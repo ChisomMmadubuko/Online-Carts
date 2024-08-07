@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Product Online cart</title>
+    <link rel="stylesheet" href="CSS/styles.css" />
+    <link rel="stylesheet" href="CSS/queries.css" />
+  </head>
+  <body>
+    <section class="container">
+      <h1>Desserts</h1>
+      <div id="cartContainer">
+        <div class="cart-item">
+          <img src="./assets/images/image-waffle-desktop.jpg" alt="Waffle with berries waffle" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Waffle</li>
+            <li><strong>Waffle with Berries</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$6.50</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-creme-brulee-desktop.jpg" alt="brulee with vanilla bean" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Brulee</li>
+            <li><strong>Vanilla Bean Crème Brûlée</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$7.00</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-macaron-desktop.jpg" alt="Macaron" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Macaron</li>
+            <li><strong>Macaron Mix of Five</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$8.00</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-tiramisu-desktop.jpg" alt="tiramisu" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Tiramisu</li>
+            <li><strong>Classic Tiramisu</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$5.50</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-baklava-desktop.jpg" alt="baklava" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Baklava</li>
+            <li><strong>Pistachio Baklava</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$4.00</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-meringue-desktop.jpg" alt="meringue" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Pie</li>
+            <li><strong>Lemon Meringue Pie</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$5.00</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-cake-desktop.jpg" alt="cake" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Cake</li>
+            <li><strong>Red Velvet Cake</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$5.00</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-brownie-desktop.jpg" alt="Brownie cake" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Brownie</li>
+            <li><strong>Salted Caramel Brownie</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$5.50</li>
+          </ul>
+        </div>
+        <div class="cart-item">
+          <img src="./assets/images/image-panna-cotta-desktop.jpg" alt="almond cream tiramisu" />
+          <button class="add-to-cart">
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>Add to Cart
+          </button>
+          <ul>
+            <li style="color: hsl(14, 25%, 72%)">Panna Cotta</li>
+            <li><strong>Vanilla Panna Cotta</strong></li>
+            <li style="color: hsl(14, 86%, 42%)">$5.00</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <aside class="cart">
+      <h2>Your Cart (0)</h2>
+      <div class="empty">
+        <img src="assets/images/illustration-empty-cart.svg" alt="Empty Cart" />
+        <p>Your added items will appear here</p>
+      </div>
+      <div class="cart-items"></div>
+    </aside>
+    <script src="script.js"></script>
+  </body>
+</html>
